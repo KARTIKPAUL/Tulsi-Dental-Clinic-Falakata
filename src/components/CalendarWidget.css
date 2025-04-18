@@ -1,0 +1,41 @@
+/* src/index.css or your main CSS file */
+
+/* Remove default react-calendar styles */
+.react-calendar {
+    width: 100%;
+    border: none;
+    font-family: inherit;
+  }
+  
+  .react-calendar__navigation {
+    display: none; /* Hide default navigation */
+  }
+  
+  .react-calendar__tile {
+    padding: 0.75rem 0;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #5A67D8; /* Indigo-600 */
+    color: white;
+    border-radius: 0.375rem; /* Rounded */
+  }
+  
+  .react-calendar__tile--now {
+    background: #E2E8F0; /* Gray-200 */
+    border-radius: 0.375rem;
+  }
+  
+  .react-calendar__tile:disabled {
+    background-color: #F7FAFC; /* Gray-50 */
+    color: #A0AEC0; /* Gray-400 */
+    cursor: not-allowed;
+  }
+  
+  .react-calendar__tile:hover {
+    background-color: #E2E8F0; /* Gray-200 */
+  }
+  
