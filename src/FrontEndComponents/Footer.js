@@ -167,10 +167,12 @@ const Footer = () => {
 
             {/* Map Section */}
 
+            
+
             <div>
               <h5 className="text-lg font-bold mb-4 text-lime-500">Find Us</h5>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.977774262983!2d89.44466987541941!3d26.327219177001002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2fe9d616b42e3%3A0xff1f1124e2f7bc94!2sThe%20New%20Sadhana%20Mike%20Supply!5e0!3m2!1sen!2sin!4v1744978343439!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3569.987860145749!2d89.2021188!3d26.520514900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e3a42e50a7335b%3A0x95cb861112f47320!2sTulsi%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1744995725869!5m2!1sen!2sin"
                 className="w-full h-40 rounded-md shadow-lg"
                 style={{ border: 0 }}
                 allowFullScreen=""
